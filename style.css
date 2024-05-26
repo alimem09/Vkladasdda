@@ -74,3 +74,13 @@
  position: relative;
  padding-left: 96px;
 }
+.container .div2{
+    border: #000000;
+    border-width: 100px;
+}   
+
+.vsibir{
+    text-decoration: none;
+    color: #000;
+    font-family: montserrat;
+}   
