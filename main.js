@@ -89,7 +89,8 @@ canvas.onmousedown = ({offsetX, offsetY}) => {
 };
 
 canvas.onmousemove = ({offsetX, offsetY}) => {
-    if (isDrawing) {
+    
+   if (isDrawing) {
         ctx.lineTo(offsetX, offsetY);
         ctx.stroke();}
 };
@@ -97,7 +98,6 @@ canvas.onmousemove = ({offsetX, offsetY}) => {
 canvas.onmouseup = () => {
     isDrawing = false;
 };
-
 const lineWidth = document.getElementById('lineWidth');
 
 ctx.lineWidth = lineWidth.value;
